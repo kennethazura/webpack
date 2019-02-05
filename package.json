@@ -1,0 +1,36 @@
+{
+  "name": "webpack-2-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Kenneth Jayson Azura <kenneth01@simplexi.com.ph>",
+  "license": "ISC",
+  "dependencies": {
+    "terser": "^3.14.1",
+    "webpack": "^4.29.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "cssnano": "^4.1.8",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
